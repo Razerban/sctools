@@ -18,8 +18,8 @@ CXXFLAGS = $(CFLAGS)
 LIBS = 
 else ifeq ($(OS), MACOSX)
 TARGET = $(PROG)
-SDK = /Developer/SDKs/MacOSX10.6.sdk
-ARCH = -mmacosx-version-min=10.6 -arch i386
+SDK = /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+ARCH = -arch x86_64
 CC = g++
 STRIP = strip
 CFLAGS = -Wall -O2 -DOS_$(OS) -isysroot $(SDK) $(ARCH)
