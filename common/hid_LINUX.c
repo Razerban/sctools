@@ -28,6 +28,8 @@
  * Version 1.0: Initial Release
  */
 
+#define PATH_MAX 4096
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
