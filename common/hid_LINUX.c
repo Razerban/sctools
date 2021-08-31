@@ -37,6 +37,7 @@
 
 #include "rawhid.h"
 
+
 // On Linux there are several options to access HID devices.
 //
 // libusb 0.1 - the only way that works well on all distributions
